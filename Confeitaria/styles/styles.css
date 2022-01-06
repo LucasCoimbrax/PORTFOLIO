@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.img-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 30px;
+    padding-right: 15px;
+}
+
+.titulo-h2{
+    font-size: 30px;
+}
+
+.botao-login{
+    width: 90px;
+    height: 30px;
+
+}
+
+.cabecalho{
+    background-color: mediumvioletred;
+    color: black;
+
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+}
+
+#menu-esquerda{
+    background-color: #f2d0e0;
+    padding-top: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
+}
+
+.img-bolo{
+    width: 100%;
+}
+
+.descricao-produtos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50%;
+}
+
+.produto-bolo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    margin: 20px;
+    box-shadow: 2px 2px darkgray;
+}
+
+.titulo-bolo{
+    padding: 5px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: mediumvioletred;
+
+    padding: 20px;
+}
+
+
