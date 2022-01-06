@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTAKUMANIA</title>
+
+    <!-- Linkando o HTML com o CSS -->
+    <link rel="stylesheet" type="text/css" href="./Styles/styles.css">                                          <!--Conecta o arquivo CSS com o HTML-->
+
+    <!--Responsividade do site-->
+    <link rel="stylesheet" type="text/css" href="Styles/responsive.css">                                        <!--Conecta o arquivo de RESPONSIVIDADE do site com o HTML-->
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" type="text/css" href="Styles/owl/owl.carousel.min.css">                              <!--Conecta o arquivo do CARROSSEL com o HTML-->
+    <link rel="stylesheet" type="text/css" href="Styles/owl/owl.theme.default.min.css">                         <!--Conecta o arquivo do CARROSSEL com o HTML-->
+    
+</head>
+    <body>
+        <!-- =================================================== -->
+        <!-- Criando o Cabeçalho -->
+        <header>
+            <div class="cabecalho">
+                <h2 class="titulo">OtakuMania</h2>
+                <nav>                                                                                           <!--A tag <nav></nav> serve para indicar links que redirecionam para outras páginas-->
+                    <a href="#">Início</a>
+                    <a href="#">Animes</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Top 10</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- =================================================== -->
+        <!-- Criando um corpo para o anime principal -->
+        <main>
+            <div class="anime-principal">
+                <div class="container">
+                    <h3 class="titulo">ONE PIECE</h3>                                                           <!--Cria um título h3-->
+                    <p class="descricao">                                                                       <!--<p></p> Serve para colocar texto na página-->
+                        Houve um homem que conquistou tudo aquilo que o 
+                        mundo tinha a oferecer, o lendário Rei dos Piratas,
+                        Gold Roger. Capturado e condenado à execução pelo 
+                        Governo Mundial, suas últimas palavras lançaram 
+                        legiões aos mares.
+                    </p>
+                    <div class="botoes">
+                        <button role="button" class="botao">                                                    <!--Adiciona botões na página-->
+                            <i class="fas fa-play"></i>                                                         <!--Irseri o simbolo do play no botão-->
+                            ASSISTIR AGORA                                                                      <!--Texto que vai dentro do botão, por isso não utiliza a tag <p></p>-->
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>                                                  <!--Irseri o simbolo de informação no botão-->
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                </div>    
+            </div>
+        </main>
+
+        <!-- =================================================== -->
+        <!-- Inserindo imagens no carrosel do site com Owl-->
+        <div class="carrosel-animes">
+            <div class="owl-carousel owl-theme">                                                                <!--Serve para add as imagens no carrossel-->
+                <div class="item">
+                    <img class="box-anime" src="img/Boku no Hero.png" alt="Anime Boku no Hero">
+                </div>                
+                <div class="item">
+                    <img class="box-anime" src="img/Fairy tail.png" alt="Anime Fairy tail">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/FullMetal Alchemist - Brotherhood.png" alt="Anime FullMetal Alchemist - Brotherhood">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Haikyuu.png" alt="Anime Haikyuu">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Hunter x Hunter.png" alt="Anime Hunter x Hunter">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Jujutsu Kaisen.png" alt="Anime Jujutsu Kaisen">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Kimetsu no Yaiba.png" alt="Anime Kimetsu no Yaiba">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Naruto Shippuden.png" alt="Anime Naruto Shippuden">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Shingeki no Kyojin.png" alt="Anime Shingeki no Kyojin">
+                </div>
+                <div class="item">
+                    <img class="box-anime" src="img/Tense Shitara Slime Datta Ken.png" alt="Anime Tense Shitara Slime Datta Ken">
+                </div>
+            </div>  
+        </div>
+
+        <!-- =================================================== -->
+        <!--Arquivos JavaScript, SEMPRE coloacar-los no final do código, para 
+        que não tenha nenhum problema com o carregamento do código HTML-->
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>                                       <!--Relaciono o servidor das imgs dos botões com o html-->
+        <script src="JS/owl/jquery.min.js"></script>                                                            <!--Relaciono a biblioteca do carrossel no html-->
+        <script src="JS/owl/owl.carousel.min.js"></script>                                                      <!--Relaciono a biblioteca do carrossel no html-->
+        <script src="JS/owl/Setup.js"></script>                                                                 <!--Relaciono o js do carrossel no html-->
+    </body>
+</html>

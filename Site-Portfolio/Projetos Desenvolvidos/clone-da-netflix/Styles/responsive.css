@@ -1,0 +1,20 @@
+/* ============================================================================================================================= */
+/*Cria uma responsividade na página dependendo de seu tamanho serve para quando utiliza-lás em outros aparelhos com telas menores*/
+@media screen and (max-width: 705px){               /*Cria uma responsividade quando a página tem menos de 705px*/
+    header .cabecalho{                              /*Transforma o cabeçalho em coluna, para que o menu fique abaixo do nome da página*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{                                         /*Redimensiona os botões, ficando um embaixo do outro*/      
+        margin-top: 5px;                            /*Cria uma margem à cima deles*/
+        width: 300px;                               /*Altera o compriemto dos botôes*/
+    }
+}
+
+@media screen and (min-width: 1000px){              /*Cria uma formatação para quando a página possui tamanho normal*/
+    .descricao{                                     /*Formata o texto da descrição*/
+        width: 50%;                                 /*Centraliza na esquerda do container*/
+        text-align: justify;                        /*Deixa o texto justificado*/
+    }
+}

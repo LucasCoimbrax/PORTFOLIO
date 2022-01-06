@@ -1,0 +1,119 @@
+/* ============================================================================================================================= */
+/* Posso declarar variáveis dentro do CSS, declarei 2 cores que sempre usarei no codigo */
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+/* ============================================================================================================================= */
+/* Resetando a configuração dos elementos do CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                         /*Serve para dizer que o texto não deve ultrapassar as bordas*/
+}
+
+body{
+    background-color: var(--preto);                 /*Fundo da página*/
+    font-family: 'Arial', Times, serif;             /*Fontes padrões da página*/
+    color: rgb(255, 255, 255);                    /*Cor padrão das letras da página*/              
+}
+
+/* ============================================================================================================================= */
+/* Formatação do cabeçalho */
+header .cabecalho{
+    display: flex;                                  /*Possibilita a edição do display*/
+    flex-direction: row;                            /*Transforma a coluna em linha*/
+    align-items: center;                            /*Centraliza os elementos na horizontal*/
+    justify-content: space-between;                 /*Cria um espaço entre os elementos, no meio*/
+    margin-left: 20px;                              /*Cria uma margem na esquerda*/
+}
+
+/* Formatação do título */
+header .titulo{
+    color: var(--vermelho);                         /*Deixa a fonte do titulo em vermelho (Definido no :root{})*/
+    font-family: 'Arial Black',Times;               /*Transforma a fonte do titulo*/
+    font-size: 40px;                                /*Define o tamanho da fonte*/
+}
+
+/* Estilizando o Menu */
+header nav a{
+    text-decoration: none;                          /*Tira a decoração do link*/
+    margin-right: 10px;                             /*Cria uma margem a direita do menu*/
+    color: #aaa;                                  /*Define a cor do menu*/
+}
+
+/* Toda vez que passar o mouse por cima do texto, ele altera a cor para #fff */
+header nav a:hover{                                 /*:hover Altera a cor da funte se passar o mouse por cima*/
+    color: #fff;
+}
+
+/* ============================================================================================================================= */
+/*Anime Principal*/
+main .anime-principal{
+    font-size: 16px;                                /*Define o tamanho da fonte*/
+
+    /* Cria um gradiente na cor por cima da imagem, tipo um filtro/mascara */
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('../img/One\ Piece\ Capa.jpg');
+
+    height: 550px;                                  /*Define o tamanho da imagem*/
+    background-size: cover;
+
+    /* Formatação do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;                        /*Os elementos começam da esquerda*/
+}
+
+main .anime-principal .descricao{
+    margin-top: 1%;                                 /*Cria uma distância entre os elementos da descrição*/
+    margin-bottom: 2%
+}
+
+main .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* No font-family é possível colocar mais de uma fonte, seria uma segurança caso o navegador não consiga carregar a 1ª fonte */
+}
+
+main .botao{
+    background-color: rgba(0,0,0,.50);            /*Modifica a cor de fundo do botão*/
+    border: none;                                   /*Retira as bordas do botão*/ 
+    border-radius: 5%;                              /*Cria um leve arredondamento no botão*/
+    color: white;
+    padding: 15px 30px;                             
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;                                /*Transforma o cursor em ponteiro quando passar por cima*/
+    transition: .3s ease all;                       /*Transição do botão*/
+}
+
+main .botao:hover{                                  /*Modifica o botão quando passar o mouse por ele*/
+    background-color: white;
+    color: black;
+}
+
+main .botao i{                                      /*Cria uma separação entre os botões*/
+    margin-right: 8px;
+}
+
+main .container{                                    /*Cria uma margem a esquera da borda da página*/
+    margin-left: 20px;
+}
+
+main .anime-principal .container{                   /*Limita o container a 60% do valor da tela*/
+    width: 60%;
+}
+
+.box-anime{                                         /*Configuração das imagens do carrosel*/
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-animes{                                   /*Cria uma separação entre o container e as imagens do carrosel*/
+    margin-top: 5px;
+}
