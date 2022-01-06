@@ -35,19 +35,15 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
       ![image](https://user-images.githubusercontent.com/92893420/147986851-d89145e4-63ce-483a-8242-7ae84b811a6c.png)
       
 * Confeitaria >br>
-      -> Projeto que simula um site de uma confeitaria, desenvolvido com HTML e CSS, com o intuito de aplicação de conhecimentos adquiridos sobre Flexbox e Grid.
+     -> Projeto que simula um site de uma confeitaria, desenvolvido com HTML e CSS, com o intuito de aplicação de conhecimentos adquiridos sobre Flexbox e Grid.
       
-      -> LINK DO SURGE: unknown-steel.surge.sh
+     -> LINK DO SURGE: unknown-steel.surge.sh
       
-      <br>
+     <br>
       
-      ![image](https://user-images.githubusercontent.com/92893420/148393543-4fbd98a3-8f1a-4fb0-8f5e-9189b6acd69b.png)
+     ![image](https://user-images.githubusercontent.com/92893420/148393543-4fbd98a3-8f1a-4fb0-8f5e-9189b6acd69b.png)
       
 * Site Portfolio <br>
-      -> Projeto que simula um site portfolio, desenvolvido com a aplicação de HTML e CSS, nele possui um breve resumo profissional, de competências e uma página com projetos desenvovidos que podem ser acessados.
+     -> Projeto que simula um site portfolio, desenvolvido com a aplicação de HTML e CSS, nele possui um breve resumo profissional, de competências e uma página com projetos desenvovidos que podem ser acessados.
       
-      -> LINK DO SURGE: idiotic-wall.surge.sh
-      
-      <br>
-      
-      
+     -> LINK DO SURGE: idiotic-wall.surge.sh
