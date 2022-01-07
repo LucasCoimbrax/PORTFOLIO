@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário de Pesquisa</title>
+
+    <!-- linkando o arquivo CSS -->
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container-principal">
+        
+        <!-- =============================================================================== -->
+        <div class="container-titulo">
+            <h1>
+                Formulário de Pesquisa
+            </h1>
+            <h2>
+                Descrição do formulário
+            </h2>
+        </div>
+
+        <!-- =============================================================================== -->
+        <div class="container-formulario">
+            <div class="perguntas">
+                <p>
+                    Nome <br>
+                    <input type="text" name="user-name" class="campo" placeholder="Digite seu nome">
+                </p>
+            </div>
+            
+            <div class="perguntas">
+                <p>
+                    Email <br>
+                    <input type="text" name="user-email" class="campo" placeholder="Digite seu email">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Data de Nascimneto <br>
+                    <input type="date" name="user-idade" class="campo">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Telefone <br>
+                    <input type="tel" name="user-tel" class="campo">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Ocupação <br>
+                    <input type="text" name="user-ocupacao" class="campo">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Cor favorita <br>
+                    <input type="color" name="user-cor" id="cor-favorita">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Nacionalidade <br>
+                    <input type="text" name="user-nacionalidade" class="campo">
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Prefere <br>
+                    <input type="radio" name="user-prefere" id="prefere"> Doce <br>
+                    <input type="radio" name="user-prefere" id="prefere"> Salgado <br>
+                </p>
+            </div>
+
+            <div class="perguntas">
+                <p>
+                    Fale um pouco sobre você <br>
+                    <textarea name="Sobre Você" id="sobre-voce" cols="30" rows="10"></textarea>
+                </p>
+            </div>
+
+            <div class="botoes">
+                <div class="botao-img-user">
+                    <p>
+                        Carregar imagem de perfil <br>
+                        <input type="file" name="user-img" id="botao-img">
+                    </p>
+                </div>
+    
+                <br><br>
+                <div class="botao-envio">
+                    <input type="submit" value="Enviar Formulário" id="user-botao">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

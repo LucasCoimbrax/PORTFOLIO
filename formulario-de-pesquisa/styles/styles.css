@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(18, 21, 28);
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-titulo{
+    padding: 80px;
+    text-align: center;
+
+    font-size: 25px;
+}
+
+.container-formulario{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: replace(10%);
+
+    background-color: rgb(59, 70, 81);
+    border-radius: 5%;
+
+    box-shadow: 1px 1px gray;
+    padding: 30px;
+    width: 800px
+
+}
+
+.perguntas{
+    padding-bottom: 20px;
+}
+
+.campo{
+    width: 60%;
+    height: 40px;
+
+    font-size: 30px;
+    padding: 8px;
+}
+
+#cor-favorita{
+    width: 100px;
+    height: 40px;
+}
+
+#prefere{
+    width: 20px;
+    height: 20px;
+}
+
+#sobre-voce{
+    width: 400px;
+    height: 250px;
+}
+
+.botao-envio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-botao{
+    height: 60px;
+    width: 300px;
+
+    font-size: 30px;
+    background-color: rgb(0, 121, 0);
+}
