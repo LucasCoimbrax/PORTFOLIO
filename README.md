@@ -47,3 +47,34 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
      -> Projeto que simula um site portfolio, desenvolvido com a aplicação de HTML e CSS, nele possui um breve resumo profissional, de competências e uma página com projetos desenvovidos que podem ser acessados.
       
      -> LINK DO SURGE: idiotic-wall.surge.sh
+     
+* Formulário de Pesquisa <br>
+      -> Projeto desenvolvido com o intuito de simular um formulário de pesquisa, pedindo para que o usuário insira alguns dados. Desenvolvendo utilizando apenas HTML e CSS, por tanto, não possui raciocínio lógico por trás da página.
+      
+     -> LINK DO SURGE: bad-harbor.surge.sh
+     
+     ![image](https://user-images.githubusercontent.com/92893420/148581769-8ddca7ea-8f02-4b6f-b481-2390748d3fe1.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
