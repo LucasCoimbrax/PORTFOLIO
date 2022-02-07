@@ -9,7 +9,7 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
 *  Página inicial do Intagram <br>
       -> Um projeto que simula a página de login do Instagram, mas não replica suas funções por apenas ser um projeto com o intuito de aplicação dos conhecimentos de HTML e CSS adquiridos ao longo do curso.
       
-      -> LINK DO SURGE: flimsy-pet.surge.sh
+     -> LINK DO SURGE: flimsy-pet.surge.sh
       
       <br>
       
