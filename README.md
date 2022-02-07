@@ -54,6 +54,14 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
      -> LINK DO SURGE: bad-harbor.surge.sh
      
      ![image](https://user-images.githubusercontent.com/92893420/148581769-8ddca7ea-8f02-4b6f-b481-2390748d3fe1.png)
+     
+* Lista de Tarefas <br>
+      -> Projeto desenvolvido com o intuito de simular uma lista de tarefas, com a possibilidade de incluir ou exluir itens dela. Desenvolvido utilizando HTML, CSS, JavaScript e React. É possível incluir uma tarefa com sua respectiva data de planejamento, nos camposdas tarefas é possível selecionar a Checkbox para marcá-la como concluída ou selecionar o botão 'X', que exclui a tarefa de sua lista.
+      
+     -> LINK DO SURGE: https://black-clocks.surge.sh
+     
+     ![image](https://user-images.githubusercontent.com/92893420/152825859-9952140c-b039-4cb7-a577-d6a21d9bcacf.png)
+
 
 
 
