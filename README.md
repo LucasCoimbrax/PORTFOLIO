@@ -61,7 +61,12 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
      -> LINK DO SURGE: https://black-clocks.surge.sh
      
      ![image](https://user-images.githubusercontent.com/92893420/152825859-9952140c-b039-4cb7-a577-d6a21d9bcacf.png)
+     
+* Landing Page <br>
+    -> Projeto desenvolvido com o intuito de simular uma Landing page de uma locadora de carros. Desenvoldivo utilizando HTML e CSS. 
 
+      
+      ![image](https://user-images.githubusercontent.com/92893420/167633129-aa97eb04-4b1d-4e32-b1ba-2a0236605d82.png)
 
 
 
