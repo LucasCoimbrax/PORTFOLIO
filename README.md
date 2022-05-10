@@ -65,10 +65,6 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
 * Landing Page <br>
     -> Projeto desenvolvido com o intuito de simular uma Landing page de uma locadora de carros. Desenvoldivo utilizando HTML e CSS. 
 
-      ![image](https://user-images.githubusercontent.com/92893420/167633265-43e862ec-13b2-46b6-9a35-c83f94c8535a.png)
-
-      ![image](https://user-images.githubusercontent.com/92893420/167633129-aa97eb04-4b1d-4e32-b1ba-2a0236605d82.png)
-
 
 
 
