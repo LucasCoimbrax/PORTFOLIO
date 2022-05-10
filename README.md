@@ -34,7 +34,7 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
       
       ![image](https://user-images.githubusercontent.com/92893420/147986851-d89145e4-63ce-483a-8242-7ae84b811a6c.png)
       
-* Confeitaria >br>
+* Confeitaria <br>
      -> Projeto que simula um site de uma confeitaria, desenvolvido com HTML e CSS, com o intuito de aplicação de conhecimentos adquiridos sobre Flexbox e Grid.
       
      -> LINK DO SURGE: unknown-steel.surge.sh
