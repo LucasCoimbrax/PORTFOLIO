@@ -63,7 +63,10 @@ Este repositório tem por finalidade a exibição de projetos desenvolvidos em F
      ![image](https://user-images.githubusercontent.com/92893420/152825859-9952140c-b039-4cb7-a577-d6a21d9bcacf.png)
      
 * Landing Page <br>
-    -> Projeto desenvolvido com o intuito de simular uma Landing page de uma locadora de carros. Desenvoldivo utilizando HTML e CSS. 
+    -> Projeto desenvolvido com o intuito de simular uma Landing page de uma locadora de carros. Desenvolvido utilizando HTML e CSS. 
+    
+* Harrydéx <br>
+      -> Projeto desenvolvido com base na API do Harry Potter, que continha dados dos principais personagens da franquia, projeto desenvolvido utilizando JavaScript, HTML, CSS, React, Custom Hooks e API Rest. Infelizmente derrubaram o link da API, mas o código ainda pode ser analisado tecnicamente.
 
 
 
