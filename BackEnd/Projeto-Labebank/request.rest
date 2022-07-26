@@ -1,0 +1,47 @@
+
+GET http://localhost:3003/getAllUsers
+
+###
+GET http://localhost:3003/getBalance?cpf=00000000001&name=mingau
+
+###
+POST http://localhost:3003/createAccount
+Content-Type: application/json
+
+{
+    "name": "Cremoso",
+    "cpf": "00000000004",
+    "birthDate": "01/01/2017"
+}
+
+###
+PUT http://localhost:3003/addBalance
+Content-Type: application/json
+
+{
+    "cpf": "00000000001",
+    "saldo": 800
+}
+
+###
+PUT http://localhost:3003/payAccount
+Content-Type: application/json
+
+{
+    "cpf": "00000000001",
+    "conta": 10,
+    "date": "01/02/2022",
+    "description": "Ração"
+}
+
+###
+PUT http://localhost:3003/transfer
+Content-Type: application/json
+
+{
+    "name": "Mingau",
+    "cpf": "00000000001",
+    "nameDestinatario": "Marie",
+    "cpfDestinatario": "00000000002",
+    "value": 50
+}
