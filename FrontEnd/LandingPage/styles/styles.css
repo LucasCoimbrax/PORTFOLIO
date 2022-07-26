@@ -1,0 +1,179 @@
+/* Zerando as configurações da página */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* ============================================================================= */
+/* HEADER */
+/* Posicionando os elementos no header */
+.container-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 5em;
+
+    padding: 8px;
+    border-bottom: 1px solid black;
+    background-color: white;
+
+}
+
+/* Estilizando os elementos do menu */
+header nav a{
+    text-decoration: none;
+    color: black;
+
+    padding-left: 2em;
+}
+
+/* Estilizando a logo do header */
+.img-logo{
+    height: 100%;
+    width: auto;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+header nav a:hover{
+    color: rgb(162, 0, 0);
+}
+
+.menu-botoes{
+    display: flex;
+    justify-content: space-around;
+
+    width: 40%;
+}
+
+.botao{
+    width: 7em;
+    height: 2em;
+}
+
+/* ============================================================================= */
+/* CORPO DA PÁGINA */
+/* Faz a estilização da apresentação da empresa e do texto quem nós somos*/
+#container-apresentacao {
+    display: grid;
+    grid-template-rows: 7fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+    background-color: white;
+    font-size: 135%;
+    text-align: justify;
+    margin: 3% 3% 3% 3%;
+}
+
+/*Contraliza o título que apresenta as seções*/
+.container-titulo-h3{
+    text-align: center;
+    font-size: 100%;
+}
+
+/*Estiliza o box das duas seções*/
+.secao{
+    display: grid;
+    grid-template-rows: 6fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color:rgb(245, 62, 72);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 3% 3% 3% 3%;
+    padding: 3% 3% 3% 3%;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: black 0.5em 0.5em 0.3em;
+}
+
+/* Faz a estilização do lado esquerdo (texto) das seções*/
+.container-secao {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 120%;
+    text-align: justify;
+}
+
+/* Centraliza os títulos das seções*/
+.titulo-seção {
+    padding: 3% 4% 3% 0%;
+    text-align: center;
+}
+
+/* Centraliza o texto das seções*/
+.container-texto-seção {
+    padding: 3% 3% 3% 0%;
+}
+
+/* Faz a estilização das imagen das seções*/
+main img {
+    height: 50%;
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* Faz a estilização dos buttons das seções - padrão normal*/
+.container-button-main {
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+/* Faz a estilização os buttons das seções no hover do mouse*/
+.container-button-main:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 20px 20px 20px 20px;
+}
+
+/* ============================================================================= */
+/* FOOTER */
+.container-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    border-top: 1px solid black;
+    padding: 3%;
+    margin-top: 10%;
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 20px;
+    
+}
+.img-contato{
+    width: 6%;
+    height: 100%;
+}
+
+.formatacao-paginas{
+    text-decoration: none;
+    color: black;
+
+    font-size: 125%;
+}
