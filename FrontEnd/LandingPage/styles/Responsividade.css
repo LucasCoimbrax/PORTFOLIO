@@ -1,0 +1,108 @@
+@media screen and (max-device-width : 375px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+    /* ===================================================== */
+    /* HEADER */
+    .container-cabecalho{
+        display: flex;
+        flex-direction: column;
+
+        position: fixed;
+        top: 0px;
+
+        max-width: 375;
+        max-height: max-content;
+
+        padding: 2%;
+    }
+
+    .container-menu{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 2%;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        align-self: center;
+        text-align: center;
+
+        width: 120%;
+        padding: 4% 0 10% 0;
+    }
+
+    /* ===================================================== */
+    /* HEADER */
+    .container-principal{
+        margin-top: 100px;
+    }
+
+    .secao{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+    }
+    .container-secao{
+        flex-direction: column;
+    }
+
+    /* ===================================================== */
+    /* HEADER */
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img-contato{
+        justify-self: center;
+        align-content: center;
+        padding: 10px 0 10px 125px;
+
+    }
+
+    .img-contato{
+        width: 10%;
+        height: 120%;
+    }
+
+    .paginas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

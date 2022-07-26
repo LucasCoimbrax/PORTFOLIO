@@ -1,0 +1,1 @@
+export const BASE_URL = "http://hp-api.herokuapp.com/api/characters"
