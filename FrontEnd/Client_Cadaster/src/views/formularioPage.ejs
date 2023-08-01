@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Final</title>
+
+    <link rel="stylesheet" href="/css/formularioPage.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div
+        class="containerHeader d-flex flex-column flex-md-row align-items-center md-5 p-3 px-md-4 mb-3 bg-black border-bottom shadow"
+      >
+        <div>
+          <img src="/img/Ferramenta.png" class="card-logo" alt="Logo" />
+        </div>
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+          <a href="/" class="textContol"> Suporte Técnico </a>
+        </h5>
+      </div>
+    </header>
+
+    <main>
+      <div class="containerCards row justify-content-center">
+        <div class="card col-sm-6">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Novo Chamado</h5>
+            </div>
+
+            <hr style="width: 100%" />
+
+            <form
+              action="/newChamado"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <label for="cliente"> Cliente: </label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Insert name client"
+                aria-label="cliente"
+                aria-describedby="addon-wrapping"
+                name="cliente"
+              />
+              <label for="descricao"> Descrição: </label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Insert description"
+                aria-label="descricao"
+                aria-describedby="addon-wrapping"
+                name="descricao"
+              />
+              <label for="typeCall"> Tipo: </label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Insert type of call"
+                aria-label="typeCall"
+                aria-describedby="addon-wrapping"
+                name="typeCall"
+                value="<%= typeCall %>"
+              />
+              <div class="containerButton">
+                <button type="submit" class="buttonChamado">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      function clearData() {
+        let text;
+        let person = prompt("Digite TENHO CERTEZA para confirmar");
+
+        let textEntrada = person.toUpperCase();
+        if (textEntrada != "TENHO CERTEZA") {
+          text = "Você digitou alguma coisa errada! Digite Novamente";
+        } else {
+          text = "Hello " + person + "! How are you today?";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
