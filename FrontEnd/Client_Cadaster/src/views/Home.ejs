@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Final</title>
+
+    <link rel="stylesheet" href="./css/Home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div
+        class="containerHeader d-flex flex-column flex-md-row align-items-center md-5 p-3 px-md-4 mb-3 bg-black border-bottom shadow"
+      >
+        <div>
+          <img src="./img/Ferramenta.png" class="card-logo" alt="Logo" />
+        </div>
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+          <a href="/" class="textContol"> Suporte Técnico </a>
+        </h5>
+        <div class="my-2 my-md-9 mr-md-3">
+          <button class="container-button" onclick="clearData()"> Limpar Chamados </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="containerCards row justify-content-center">
+        <div class="card col-sm-3">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Dispositivos</h5>
+            </div>
+            <hr style="width: 100%" />
+            <div>
+              <img
+                class="card-img-top"
+                src="./img/computador.avif"
+                alt="Imagem de capa do card"
+              />
+            </div>
+          </div>
+          <a href="/newChamado/Dispositivos" class="containerButton">
+            <button class="buttonChamado">Abrir Chamado</button>
+          </a>
+        </div>
+
+        <div class="card col-sm-3">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Periféricos</h5>
+            </div>
+            <hr style="width: 100%" />
+            <div>
+              <img
+                class="card-img-top"
+                src="./img/perifericos.png"
+                alt="Imagem de capa do card"
+              />
+            </div>
+          </div>
+          <a href="/newChamado/Perifericos" class="containerButton">
+            <button class="buttonChamado">Abrir Chamado</button>
+          </a>
+        </div>
+        <div class="card col-sm-3">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Software</h5>
+            </div>
+            <hr style="width: 100%" />
+            <div>
+              <img
+                class="card-img-top"
+                src="./img/software.png"
+                alt="Imagem de capa do card"
+              />
+            </div>
+          </div>
+          <a href="/newChamado/Software" class="containerButton">
+            <button class="buttonChamado">Abrir Chamado</button>
+          </a>
+        </div>
+      </div>
+
+      <hr style="background-color: blue; width: 85%;">
+
+      <div class="containerChamados">
+        <div>
+          <h2 class="containerTextChamados"> Chamados </h2>
+        </div>
+        <div class="containerTable">
+          <div>
+            <div
+              class="card cardTable"
+            >
+              <table>
+                <tr class="containerTR text-center">
+                  <th class="containerTH" style="width: 25%"> Cliente </th>
+                  <th class="containerTH" style="width: 50%"> Problema </th>
+                  <th class="containerTH" style="width: 25%"> Tipo </th>
+                </tr>
+
+                <tbody class="text-center">
+                  <% for (let i=0; i<chamadosData.length; i++) { %>
+                    <tr>
+                      <td> chamadosData[i].Nome </td>
+                      <td> chamadosData[i].Descricao </td>
+                      <td> chamadosData[i].TypeCall </td>
+                    </tr>
+                  <% } %>
+                </tbody>
+
+                
+  
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/home"></script>
+  </body>
+</html>

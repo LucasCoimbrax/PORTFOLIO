@@ -266,4 +266,4 @@ const server = app.listen(process.env.PORT || 3003, () => {
   } else {
     console.error(`Failure upon starting server.`);
   }
-});;
+});

@@ -1,0 +1,81 @@
+body{
+    font-family: 'Rowdies';
+    padding: 0px;
+    max-width: 99%;
+}
+
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: black;
+    font-family: 'Rowdies';
+}
+
+.textContol{
+    color: white;
+}
+
+.card-logo{
+    width: 30px;
+}
+
+.container-button{
+    border-radius: 10px;
+    color: white;
+    background-color: #9e9e9e;
+}
+
+.card{
+    margin: 2%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+
+    margin: 5%;
+}
+
+.buttonChamado{
+    width: 50%;
+    border-radius: 10px;
+
+    background-color: rgb(147, 147, 252);
+}
+
+.buttonChamado:hover{
+    background-color: blue;
+}
+
+
+.containerChamados{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 500px;
+}
+
+.containerTextChamados{
+    margin: 25px;
+}
+
+.containerTH{
+    border: 1px solid black;
+}
+
+.cardTable{
+    width: 85vw;
+    padding: 0px;
+    margin: 0px;
+}
